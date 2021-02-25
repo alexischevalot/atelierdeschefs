@@ -1,0 +1,104 @@
+#group {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.card_chef {
+    flex-direction: row;
+    text-align: center;
+}
+
+.card_rest {
+    flex-direction: row;
+    
+}
+
+.card_chef img{
+ width: 400px;
+ height: 600px;
+ left: 50px;
+ top: 100px;
+} 
+
+.card_rest img{
+width: 800px;
+height: 600px;
+left: 50px;
+top: 100px;
+} 
+
+.avis{
+    border: solid;
+    border-color: #dfdfdf;
+    background-color: #dfdfdf;
+} 
+
+.avis p {
+    font-style: italic;
+}
+
+.group-formules {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border-color: #dfdfdf;
+    background-color: #dfdfdf;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+}
+
+
+
+.text-chef {
+    text-overflow: ellipsis;
+    background-color: #c4c4c4;
+    width: 800px;
+}
+
+.group-formules {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nom-formule {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.prix-formule {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.formule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+
+
+.prix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80%;
+    background-color: #c4c4c4;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+
+.group-formules h3 {
+    color: #752C2C;
+}
