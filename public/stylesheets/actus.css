@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel {
+    max-height: 400px;
+    max-width: 700px;
+    margin: 0 auto;
+    width: 80vw; 
+    max-height: 357px;
+}
+
+.carousel-caption { 
+    margin-bottom: 15px;
+}
+
+.resto_Name { 
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(117, 44, 44, 0.411);
+    color: white;
+    width: 100%;
+    background-size: 100%;
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.city {
+    font-weight: bold;
+    font-size: 16px;
+    color:  white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.carousel-item {
+    border: solid rgb(117, 44, 44)
+}
+
+.sous-titre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(117, 44, 44); 
+}
+
+.fas {
+    font-size: 14px;
+}
+
+.fas:hover {
+    color: goldenrod;
+}
